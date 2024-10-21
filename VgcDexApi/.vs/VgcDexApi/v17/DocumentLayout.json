@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitRepos\\NgProjs\\vgc-dex\\VgcDexApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{961C22FF-D2F2-4F96-AFEE-46720B519398}|VgcDexApi\\VgcDexApi.csproj|d:\\gitrepos\\ngprojs\\vgc-dex\\vgcdexapi\\vgcdexapi\\controllers\\tournamentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961C22FF-D2F2-4F96-AFEE-46720B519398}|VgcDexApi\\VgcDexApi.csproj|solutionrelative:vgcdexapi\\controllers\\tournamentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961C22FF-D2F2-4F96-AFEE-46720B519398}|VgcDexApi\\VgcDexApi.csproj|d:\\gitrepos\\ngprojs\\vgc-dex\\vgcdexapi\\vgcdexapi\\models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961C22FF-D2F2-4F96-AFEE-46720B519398}|VgcDexApi\\VgcDexApi.csproj|solutionrelative:vgcdexapi\\models\\tournament.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961C22FF-D2F2-4F96-AFEE-46720B519398}|VgcDexApi\\VgcDexApi.csproj|d:\\gitrepos\\ngprojs\\vgc-dex\\vgcdexapi\\vgcdexapi\\services\\tournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961C22FF-D2F2-4F96-AFEE-46720B519398}|VgcDexApi\\VgcDexApi.csproj|solutionrelative:vgcdexapi\\services\\tournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 175,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TournamentService.cs",
+              "DocumentMoniker": "D:\\GitRepos\\NgProjs\\vgc-dex\\VgcDexApi\\VgcDexApi\\Services\\TournamentService.cs",
+              "RelativeDocumentMoniker": "VgcDexApi\\Services\\TournamentService.cs",
+              "ToolTip": "D:\\GitRepos\\NgProjs\\vgc-dex\\VgcDexApi\\VgcDexApi\\Services\\TournamentService.cs",
+              "RelativeToolTip": "VgcDexApi\\Services\\TournamentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T04:31:58.631Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 207,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TournamentController.cs",
+              "DocumentMoniker": "D:\\GitRepos\\NgProjs\\vgc-dex\\VgcDexApi\\VgcDexApi\\Controllers\\TournamentController.cs",
+              "RelativeDocumentMoniker": "VgcDexApi\\Controllers\\TournamentController.cs",
+              "ToolTip": "D:\\GitRepos\\NgProjs\\vgc-dex\\VgcDexApi\\VgcDexApi\\Controllers\\TournamentController.cs",
+              "RelativeToolTip": "VgcDexApi\\Controllers\\TournamentController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAQwDMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T04:11:10.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tournament.cs",
+              "DocumentMoniker": "D:\\GitRepos\\NgProjs\\vgc-dex\\VgcDexApi\\VgcDexApi\\Models\\Tournament.cs",
+              "RelativeDocumentMoniker": "VgcDexApi\\Models\\Tournament.cs",
+              "ToolTip": "D:\\GitRepos\\NgProjs\\vgc-dex\\VgcDexApi\\VgcDexApi\\Models\\Tournament.cs",
+              "RelativeToolTip": "VgcDexApi\\Models\\Tournament.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T03:56:43.034Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

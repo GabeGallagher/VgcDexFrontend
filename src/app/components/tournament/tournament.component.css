@@ -1,0 +1,33 @@
+.container {
+  padding: 20px;
+}
+
+.info-panel {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.info-text {
+  font-size: 0.875rem;
+  font-weight: bold;
+  flex-basis: 25%;
+  text-align: left;
+}
+
+.team-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  padding: 55px;
+  margin-bottom: 10px;
+}
+
+.team-text {
+  font-size: 0.875rem;
+  flex-basis: 25%;
+  text-align: left;
+}

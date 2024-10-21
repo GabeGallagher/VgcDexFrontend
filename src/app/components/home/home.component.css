@@ -1,0 +1,67 @@
+.container {
+  padding: 20px;
+}
+
+.info-panel {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.info-text {
+  font-size: 0.875rem;
+  font-weight: bold;
+  flex-basis: 25%;
+  text-align: left;
+}
+
+.tournament-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tournament-text {
+  font-size: 0.875rem;
+  flex-basis: 25%;
+  text-align: left;
+}
+
+.filter-container {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.filter-options-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}

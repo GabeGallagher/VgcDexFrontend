@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="filter-container">
+    <h1>Filter</h1>
+    <div class="filter-options-container" [formGroup]="filterForm">
+      <select formControlName="regulation" id="regulation">
+        <option [ngValue]="null" disabled selected>Regulation</option>
+        <option *ngFor="let regulation of regulations" [ngValue]="regulation.key">
+          {{ getRegulation(regulation.key) }}
+        </option>
+      </select>
+      <input type="number" formControlName="minPlayers" name="minPlayers" placeholder="Min Players">
+      <input type="number" formControlName="maxPlayers" name="maxPlayers" placeholder="Max Players">
+      <button (click)="clearFilters()">Clear</button>
+      <button (click)="applyFilters()">Apply Filters</button>
+    </div>
+  </div>
+  <h1>Tournaments</h1>
+  <div *ngIf="tournamentDisplay.length > 0; else noTournaments">
+    <div class="info-panel">
+      <div class="info-text">NAME</div>
+      <div class="info-text">DATE</div>
+      <div class="info-text">PLAYERS</div>
+      <div class="info-text">REGULATION</div>
+    </div>
+    <div *ngFor="let tournament of tournamentDisplay" class="tournament-card" (click)="viewTournament(tournament.tournamentId)">
+      <div class="tournament-text">{{ tournament.name }}</div>
+      <div class="tournament-text">
+        {{ tournament.date | date : "dd-MM-yyyy" }}
+      </div>
+      <div class="tournament-text">{{ tournament.players }}</div>
+      <div class="tournament-text">
+        {{ getRegulation(tournament.regulation) }}
+      </div>
+    </div>
+
+    <button (click)="showMore()">Show More</button>
+    <button (click)="showLess()">Show Less</button>
+  </div>
+
+  <ng-template #noTournaments>
+    <p>No tournaments available at this time</p>
+  </ng-template>
+</div>

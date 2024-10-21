@@ -1,0 +1,26 @@
+<p>tournament works!</p>
+
+<div class="container">
+  <h1>Teams</h1>
+  <div class="info-panel">
+    <div class="info-text">PLACE</div>
+    <div class="info-text">PLAYER</div>
+    <div class="info-text">COUNTRY</div>
+    <div class="info-text">RECORD</div>
+    <div class="info-text">POKÉMON</div>
+  </div>
+  <div *ngFor="let team of teamsDisplay" class="team-card">
+    <div class="team-text">{{ team.placement }}</div>
+    <div class="team-text">
+      {{ team.player }}
+      <img [src]="team.country | countryFlag" alt="team.country" />
+    </div>
+    <div class="team-text">{{ team.record }}</div>
+    <img [src]="getPokemonImg(team.pokemon1Id)" alt="team.pokemon1Id" />
+    <div class="team-text">{{ getPokemonImg(team.pokemon2Id) }}</div>
+    <div class="team-text">{{ getPokemonImg(team.pokemon3Id) }}</div>
+    <div class="team-text">{{ getPokemonImg(team.pokemon4Id) }}</div>
+    <div class="team-text">{{ getPokemonImg(team.pokemon5Id) }}</div>
+    <div class="team-text">{{ getPokemonImg(team.pokemon6Id) }}</div>
+  </div>
+</div>
